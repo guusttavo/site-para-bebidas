@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.produto {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
